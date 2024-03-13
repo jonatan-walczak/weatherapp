@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    background-color: rgb(225, 255, 245);
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+.weather-box{
+    width: 20rem;
+    height: 35rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.search-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1em;
+}
+.search-box>input{
+    font-size: 1.2em;
+    width: 10rem;
+}
+.submit{
+    background-color: rgb(159, 255, 175);
+    border-radius: 100rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+
+.temperature-box{
+    display: flex;
+}
+
+.image img{
+    width: 100%;
+}
+
+.weather-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.values>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 5rem;
+}
